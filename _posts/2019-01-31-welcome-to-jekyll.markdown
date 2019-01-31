@@ -20,6 +20,16 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
+deploy to github, see [githu page][github-page] and [guide to github with jekyll][guide-to-github]
+
+push an existing repository from the command line
+{% highlight shell %}
+git remote add origin https://github.com/nomoreless/somepost.github.io.git
+git push -u origin master
+{% endhighlight %}
+
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+[github-page]: https://pages.github.com/
+[guide-to-github]: http://jmcglone.com/guides/github-pages/
